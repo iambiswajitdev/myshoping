@@ -1,38 +1,90 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+.cardImg img {
+  max-width: 100%;
+  height: 150px;
+}
+.card {
+  width: 100%;
   text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 25px #ccc;
+  padding: 15px;
+  border-radius: 9px;
+  margin-bottom: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cardContant {
+  width: 100%;
+  margin-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.prodactTitle {
+  font-size: 20px;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.prodactPrice {
+  font-size: 15px;
+  font-weight: 700;
 }
-
-.App-link {
-  color: #61dafb;
+.prodactCategory {
+  font-size: 15px;
+  text-transform: capitalize;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.prodactOrderBtn {
+  border: none;
+  padding: 5px 15px;
+  background-color: orangered;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.prodact_main {
+  margin-top: 50px;
+}
+.prodactDetailsImg {
+  text-align: center;
+  box-shadow: 0px 0px 15px #ccc;
+  border-radius: 10px;
+  padding-top: 16px;
+}
+.prodactDetailsImg img {
+  max-width: 100%;
+  height: 400px;
+}
+.prodactDetails {
+  margin-top: 50px;
+}
+.prodactRightContant {
+  padding-left: 15px;
+  height: 100%;
+}
+.prodactPriceRight {
+  display: inline-block;
+  background-color: #b185f6;
+  padding: 5px 15px;
+  border-radius: 30px 4px 5px 30px;
+  color: #fff;
+}
+.prodactOrderBtn {
+  border: none;
+  padding: 5px 15px;
+  background-color: orangered;
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.prodactCategory_right {
+  background-color: #b0e5ea;
+  text-transform: capitalize;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
