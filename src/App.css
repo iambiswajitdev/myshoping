@@ -172,7 +172,6 @@
 }
 .ourProdact {
   padding: 2rem 0;
-  background-image: url("");
 }
 .prodactHeading {
   text-transform: capitalize;
@@ -183,4 +182,19 @@
   font-size: 1.2rem;
   text-align: center;
   padding: 2rem 0;
+}
+@media only screen and (max-width: 900px) {
+  .banner {
+    padding-top: 5rem;
+  }
+  .shopingContant h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .shopingContant p {
+    display: none;
+  }
+  .banner img {
+    height: auto;
+  }
 }

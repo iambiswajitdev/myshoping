@@ -12,12 +12,12 @@ const Header = () => {
     <div className="header">
       <Container>
         <Row>
-          <Col lg={2}>
+          <Col lg={2} xs={6}>
             <Link to="/">
               <img className="logoImg" src={logo} alt="" />
             </Link>
           </Col>
-          <Col lg={9}>
+          <Col lg={9} xs={3}>
             <div className="navBar">
               <ul>
                 <li>
@@ -26,7 +26,7 @@ const Header = () => {
               </ul>
             </div>
           </Col>
-          <Col lg={1}>
+          <Col lg={1} xs={3}>
             <Link to="/">
               <img className="cartImg" src={cart} alt="" />
             </Link>
