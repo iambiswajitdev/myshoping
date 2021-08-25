@@ -11,9 +11,9 @@ export const selectProdact = (prodact) => {
     payload: prodact,
   };
 };
-// export const deletProdact = (prodact) => {
-//   return {
-//     type: actionType.SET_PRODACT,
-//     payload: prodact,
-//   };
-// };
+export const removeProdact = (prodact) => {
+  return {
+    type: actionType.REMOVE_PRODACT,
+    payload: prodact,
+  };
+};

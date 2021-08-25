@@ -20,3 +20,11 @@ export const seletProdatReduser = (state = {}, { type, payload }) => {
       return state;
   }
 };
+export const removeProdatReduser = (state = {}, { type, payload }) => {
+  switch (type) {
+    case actionType.REMOVE_PRODACT:
+      return { ...state, ...payload };
+    default:
+      return state;
+  }
+};
