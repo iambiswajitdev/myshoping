@@ -33,7 +33,7 @@ const ProdactListing = () => {
                   corporis maiores enim cum, dolor voluptatem. A pariatur eos
                   cumque, quidem consequatur laudantium?
                 </p>
-                <button className="orderBtn">order now</button>
+                <button className="orderBtn">read more...</button>
               </div>
             </Col>
             <Col lg={6}>
